@@ -1,0 +1,11 @@
+job_name: hci-ippool-service
+src_path: /Users/jacobweinstock/repos/netapp/hci-ippool-service
+jenkins_external_port: 8888
+jenkins_admin_username: admin
+jenkins_admin_password: admin
+plugins:
+  blueocean
+  jclouds-jenkins
+  docker-plugin
+  copyartifact
+  ws-cleanup

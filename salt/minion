@@ -1,0 +1,12 @@
+gitfs_remotes:
+  - https://github.com/saltstack-formulas/jenkins-formula
+
+fileserver_backend:
+  - gitfs
+  - roots
+
+gitfs_provider: gitpython
+
+file_roots:
+  base:
+    - /srv/salt/
