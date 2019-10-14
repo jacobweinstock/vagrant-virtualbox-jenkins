@@ -1,5 +1,5 @@
-job_name: hci-ippool-service
-src_path: /Users/jacobweinstock/repos/netapp/hci-ippool-service
+job_name: my-cool-app
+src_path: /fully/qualifies/location
 jenkins_external_port: 8888
 jenkins_admin_username: admin
 jenkins_admin_password: admin
